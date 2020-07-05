@@ -1,5 +1,5 @@
 body{
-  font-family: 'Bangers', cursive;
+  font-family: 'Fondamento', cursive;
 }
 
 :root{
@@ -103,14 +103,4 @@ header{
   width: 200px;
   right: 20px;
   top: 20px;
-}
-
-/* ABOUT PAGE ICON */
-.aicon{
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
 }
