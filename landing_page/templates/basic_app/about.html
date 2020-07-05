@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-default">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}">Admin</a></li>
+            <li class="nav-item" id="imageli"><img src="{% static "images/outbox.png" %}" alt=""></li>
+          </ul>
+        </nav>
+
+        <div id="about" class="container">
+          <div>
+            <h1>OUT BOX</h1>
+            <h3>Who are we?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Our Team</h3>
+            <h4>Shubham Rane</h4>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            <h4>Namit naik</h4>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </header>
+      </div>
+    </div>
+
+  </body>
+</html>
