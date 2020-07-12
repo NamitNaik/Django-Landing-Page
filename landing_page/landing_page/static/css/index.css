@@ -1,0 +1,106 @@
+body{
+  font-family: 'Fondamento', cursive;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+header{
+  height: 100vh;
+  background-image: url('https://www.careertoolbelt.com/wp-content/uploads/2019/07/iStock-979622962.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+#about{
+  height: 100vh;
+  background-image: url('https://www.careertoolbelt.com/wp-content/uploads/2019/07/iStock-979622962.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+.nav-item a{
+  padding: 15px;
+  color: white;
+}
+#imageli{
+  position: absolute;
+  right: 10px;
+}
+#imageli img{
+  width: 60px;
+  height: 60px;
+}
+#headerdiv{
+  padding: 10%;
+  text-align: center;
+  color: white;
+}
+
+#form{
+  width: 70%;
+  align: left;
+  color: blue;
+}
+
+/* SOCIAL MEDIA ICONS */
+#icon{
+  position: absolute;
+  left: 55%;
+  padding: 20px;
+  flex-shrink: 3;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* THANK YOU PAGE  */
+#obox{
+  position: absolute;
+  width: 200px;
+  right: 20px;
+  top: 20px;
+}
