@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import UserInfo
 from .forms import UserInfoForm
 from django.http import HttpResponse
-# Create your views here.
+# Create your view here.
 
 def index(request):
     form = UserInfoForm()
